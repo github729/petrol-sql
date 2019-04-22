@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.7.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2018 at 02:48 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- Generation Time: Apr 22, 2019 at 11:44 AM
+-- Server version: 10.1.30-MariaDB
+-- PHP Version: 7.2.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -68,9 +68,9 @@ CREATE TABLE `records` (
 --
 
 INSERT INTO `records` (`id`, `nozzleId`, `openingReading`, `closingReading`, `rate`, `createdAt`, `updatedAt`) VALUES
-(75, 2, 12347896, 12347900, 58, '2018-12-23', '2018-12-23 00:00:00'),
-(76, 3, 2347896, 2347900, 58, '2018-12-23', '2018-12-23 00:00:00'),
-(77, 4, 347896, 347900, 58, '2018-12-23', '2018-12-23 00:00:00'),
+(75, 2, 12347896, 12347900, 58, '2019-04-03', '2019-04-04 00:00:00'),
+(76, 3, 2347896, 2347900, 58, '2019-04-03', '2019-04-04 00:00:00'),
+(77, 4, 347896, 347900, 58, '2019-04-03', '2019-04-04 00:00:00'),
 (78, 5, 234786, 234700, 78, '2018-12-23', '2018-12-23 00:00:00'),
 (79, 6, 247896, 2357900, 58, '2018-12-23', '2018-12-23 00:00:00'),
 (80, 2, 12347896, 12347900, 58, '2018-12-24', '2018-12-24 00:00:00'),
@@ -89,7 +89,8 @@ INSERT INTO `records` (`id`, `nozzleId`, `openingReading`, `closingReading`, `ra
 (93, 6, 247896, 247900, 58, '2018-12-28', '2018-12-25 15:21:11'),
 (94, 2, 12347896, 12348900, 58, '2018-12-28', '2018-12-25 15:21:37'),
 (95, 3, 2347896, 2348900, 58, '2018-12-28', '2018-12-25 15:21:47'),
-(96, 4, 347896, 347900, 58, '2018-12-28', '2018-12-25 15:24:05');
+(96, 4, 347896, 347900, 58, '2018-12-28', '2018-12-25 15:24:05'),
+(97, 3, 2347896, 0, 58, '2019-04-04', '2019-04-04 08:54:11');
 
 -- --------------------------------------------------------
 
@@ -146,7 +147,7 @@ ALTER TABLE `nozzels`
 -- AUTO_INCREMENT for table `records`
 --
 ALTER TABLE `records`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
